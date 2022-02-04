@@ -1,5 +1,19 @@
 /* developer styles go here */
 
 section {
-    background-image: url(.../img/browser-website.svg);
+    /* background-image: url(.../img/browser-website.svg); */
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* Since I got a different SVG, the fill won't work due to it already having multiple colors. (Look at week 5 Feb 2, second recording) */
+
+svg {
+    fill: burlywood;
+}
+
+svg:hover {
+    fill: antiquewhite;
 }
